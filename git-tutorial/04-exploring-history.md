@@ -12,7 +12,7 @@ progress just by looking at it, but now let's track progress "using our HEADs" (
 make one more change to `mars.txt`.
 
 ```
-$ vi mars.txt
+$ nano mars.txt
 $ cat mars.txt
 Mild and dry, but everything is my favorite color
 The two moons may be a problem for Wolfman
