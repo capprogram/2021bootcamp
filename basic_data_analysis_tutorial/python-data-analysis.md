@@ -108,3 +108,14 @@ Note that the operators listed above do math `element-wise`, meaning if you, e.g
 Now using parentheses and simple math, you can create your own functions. For example, suppose you'd like to define a column of data (one-dimensional array) that obeys the equation c=lambda*nu over a range of lambda from 300-700nm going up by 50nm at a time. You can type `lam=300.+np.arange(0,401,50)` first, then `nu=3.e17 / lam` (where the speed of light is 3 x 10^17 in units of nm/sec). The output should be nu in Hertz (1/sec). Notice that although the `300.` was a scalar, python allows you to add it to an array (all elements) and does not complain about size mismatch. Warning: don't try to use the variable name `lambda` instead of `lam`! The word `lambda` has a special meaning in the python programming language, which we don't need to get into.
 
 *Use parentheses liberally!* It is very easy to do different math than you intend. Notice that `nu=3.e17 / 300.+np.arange(0,401,50)` does not work properly, although you could write `nu=3.e17 / (300.+np.arange(0,401,50))`.
+
+### What else is out there?
+Extensive lists of additional functions can be found in the documentation for the respective libraries.
+
+1. [Numpy](http://docs.scipy.org/doc/numpy/reference/)
+2. [Scipy](http://docs.scipy.org/doc/scipy/reference/)
+3. [Matplotlib](http://matplotlib.org/contents.html)
+4. [Astropy](http://docs.astropy.org/en/stable/)
+5. [AstroML](http://www.astroml.org/modules/classes.html)
+
+Moreover, there are thousands of other python libraries we will not be using -- someday you may create your own library!
