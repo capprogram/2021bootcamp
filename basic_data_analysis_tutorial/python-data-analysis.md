@@ -85,3 +85,26 @@ If you want to pick out one or more rows/columns in the array, you must use "ind
 Numpy's `arange` function can be used to generate a series of numbers, either in +1 increments (the default) or in increments you specify. Compare the output of `x1=np.arange(1,5)` and `x2=np.arange(1,5,2)`. The final number is the increment, unless it's missing, in which case it's assumed to be 1. The first two numbers are the starting and ending points, but once again python stops one increment before the ending point, just as for subscript ranges.
 
 The `zeros` command can also be useful to make arrays you want to fill in with nonzero values later. For example, type `newarray=np.zeros([4,3])` and `x1=np.arange(1,5)`. Examine these variables dimensions under the "Size" column in the Variable explorer, or type `newarray.shape` and `x1.shape` to output their dimensions. Now type `newarray[:,1]=x1`. Examine the result carefully -- why was it necessary to use subscripts on newarray before inserting x1? Try `z=newarray+x1`. It gives an error -- why?
+
+### Simple Math
+Although python can do advanced math, we won't need that, so you should just remember a few simple operators and functions:
+
+    + addition
+    - subtraction
+    * multiplication
+    / division
+    ** to-the-power-of
+    e times 10-to-the (e.g. 2.e4 = 2. * 10^4)
+    abs() absolute value
+    sqrt() square root
+    exp() e^
+    log() natural log or ln
+    log10() ordinary log (opposite of 10^)
+    sin() sine of angle in radians
+    cos() cosine of angle in radians
+
+Note that the operators listed above do math `element-wise`, meaning if you, e.g., multiply two single column arrays, the two first elements will multiply, the two second elements will multiply, the two third elements will multiply, etc. Unlike matlab, python does *not* treat `*` as matrix multiplication for arrays, rather as simple element-wise multiplication.
+
+Now using parentheses and simple math, you can create your own functions. For example, suppose you'd like to define a column of data (one-dimensional array) that obeys the equation c=lambda*nu over a range of lambda from 300-700nm going up by 50nm at a time. You can type `lam=300.+np.arange(0,401,50)` first, then `nu=3.e17 / lam` (where the speed of light is 3 x 10^17 in units of nm/sec). The output should be nu in Hertz (1/sec). Notice that although the `300.` was a scalar, python allows you to add it to an array (all elements) and does not complain about size mismatch. Warning: don't try to use the variable name `lambda` instead of `lam`! The word `lambda` has a special meaning in the python programming language, which we don't need to get into.
+
+*Use parentheses liberally!* It is very easy to do different math than you intend. Notice that `nu=3.e17 / 300.+np.arange(0,401,50)` does not work properly, although you could write `nu=3.e17 / (300.+np.arange(0,401,50))`.
