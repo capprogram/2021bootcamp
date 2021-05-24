@@ -7,7 +7,7 @@ Let's create a file called `mars.txt` that contains some notes
 about the Red Planet's suitability as a base.
 
 ```
-$ vi mars.txt
+$ nano mars.txt
 ```
 
 Type the text below into the `mars.txt` file (remember vi's modes):
