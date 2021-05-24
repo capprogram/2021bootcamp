@@ -46,7 +46,7 @@ $ git diff HEAD~1 mars.txt
 
 If we want to see what we changed at different steps, we can use `git diff`
 again, but with the notation `HEAD~1`, `HEAD~2`, and so on, to refer to old
-commits:
+commits: (Your output may not perfectly match the examples given the venus line we added)
 
 ```
 $ git diff HEAD~1 mars.txt
