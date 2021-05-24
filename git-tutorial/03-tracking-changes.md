@@ -10,7 +10,7 @@ about the Red Planet's suitability as a base.
 $ nano mars.txt
 ```
 
-Type the text below into the `mars.txt` file (remember vi's modes):
+Type the text below into the `mars.txt` file:
 
 ```
 Mild and dry, but everything is my favorite color
