@@ -131,8 +131,8 @@ so that our filesystem doesn't become cluttered
 (and so that we can't accidentally edit or delete an old version).
 
 
-Now suppose Dracula adds more information to the file.
-(Again, we'll edit with `vi` and then `cat` the file to show its contents;
+Now suppose Dracula adds more information to the file. Add the line "The two moons may be a problem for Wolfman" to mars.txt
+(Again, we'll edit with `nano` and then `cat` the file to show its contents;
 you may use a different editor, and don't need to `cat`.)
 
 ```
