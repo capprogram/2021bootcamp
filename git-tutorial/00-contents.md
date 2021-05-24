@@ -16,7 +16,7 @@ Nano will be a text editor that Git will use whenever Git wants to open up a tex
     8. Copy nano.exe and paste it into your C:/Windows/ folder.
     9. Run nano.exe, if it worked then you should see a small black terminal with some tips at the bottom!
 
-## 2. Configure Git.
+## 3. Configure Git.
 
 On your machine, run these `git config` commands below (in any directory) to set your name, email, and preferred options.
 
