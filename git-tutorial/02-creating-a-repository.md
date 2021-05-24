@@ -4,7 +4,12 @@
 
 # 2. Creating a Repository
 
-Once Git is configured, we can start using it.
+Once Git is configured, we can start using it. Note that Git uses the Bash coding language, and we may employ simple commands in that language. Here is a small list of some basic commands:
+
+mkdir [name] = will make a directory called [name]
+cd [name] = will change your current directory into the one called [name], can also put in an absolute path such as /users/documents/[name]
+ls = list the contents of the current directory
+
 Let's create a directory for our work and then move into that directory:
 ```
 $ mkdir planets
