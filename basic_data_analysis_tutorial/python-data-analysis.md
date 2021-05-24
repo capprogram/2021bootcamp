@@ -46,3 +46,10 @@ import astroML as ml		# machine learning for astronomy
 import astroML.datasets as mld 	# datasets
 import pymc			# bayesian methods including markov chain monte carlo
 ```
+
+For the purposes of this tutorial we will only use numpy, the basic numerical analysis library, so you only need to type
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+```
