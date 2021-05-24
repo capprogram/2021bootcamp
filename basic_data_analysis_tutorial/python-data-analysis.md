@@ -65,3 +65,23 @@ y=np.array([4,0,3,2])
 z=x+y
 print z
 ```
+
+and look at how these variables appear in the Variable explorer. Now type
+
+```python
+x=[1,2,3,4]
+y=[4,0,3,2]
+z=x+y
+print z
+```
+and compare. For present purposes, we are *not* interested in the `list` behavior of the second set of commands, but only the `array` behavior of the first set. It's also worth noting that python happily overwrites x, y, and z with no error message, even when it means changing their variable types -- this behavior is different from that of programming languages that declare variables.
+
+When working with real data, we may have both rows and columns. For example, define `x=np.array([[1, 3] , [2, 4], [10, 11]])`. The brackets within brackets imply 3 rows and 2 columns.
+
+If you want to pick out one or more rows/columns in the array, you must use "indices" (a.k.a. "subscripts") to identify the portion of the array you want -- rows first, columns second, in square brackets. Both are numbered starting from zero. The colon `:` indicates a range, with two odd features -- first, `x:y` actually means index numbers from x to (y-1), and second, `:` by itself means all index numbers. For example, compare the results of `out1=x[1:2,1:2]` with the result of `out2=x[0,:]`. In the first example the colon acts like a dash specifying a range, i.e., read `1:2` as `1 to (2-1)` which is `1 to 1` or just the single index 1. The first command says you want out1 to be restricted to row \#1 (the second row) and column \#1 (the second column) of `x`, while the second says you want out2 to equal row 0 (the first row) of `x` with all columns. We refer to each number in an array as an **element**. Try to write a command to select the element of `x` in the second row, first column, and assign it to `y`.
+
+### Special Arrays
+
+Numpy's `arange` function can be used to generate a series of numbers, either in +1 increments (the default) or in increments you specify. Compare the output of `x1=np.arange(1,5)` and `x2=np.arange(1,5,2)`. The final number is the increment, unless it's missing, in which case it's assumed to be 1. The first two numbers are the starting and ending points, but once again python stops one increment before the ending point, just as for subscript ranges.
+
+The `zeros` command can also be useful to make arrays you want to fill in with nonzero values later. For example, type `newarray=np.zeros([4,3])` and `x1=np.arange(1,5)`. Examine these variables dimensions under the "Size" column in the Variable explorer, or type `newarray.shape` and `x1.shape` to output their dimensions. Now type `newarray[:,1]=x1`. Examine the result carefully -- why was it necessary to use subscripts on newarray before inserting x1? Try `z=newarray+x1`. It gives an error -- why?
