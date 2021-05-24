@@ -136,7 +136,7 @@ Now suppose Dracula adds more information to the file.
 you may use a different editor, and don't need to `cat`.)
 
 ```
-$ vi mars.txt
+$ nano mars.txt
 $ cat mars.txt
 Mild and dry, but everything is my favorite color
 The two moons may be a problem for Wolfman
@@ -273,7 +273,7 @@ First,
 we'll add another line to the file:
 
 ```
-$ vi mars.txt
+$ nano mars.txt
 $ cat mars.txt
 Mild and dry, but everything is my favorite color
 The two moons may be a problem for Wolfman
