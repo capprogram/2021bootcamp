@@ -18,7 +18,7 @@ Nano will be a text editor that Git will use whenever Git wants to open up a tex
 
 ## 2. Configure Git.
 
-On your linux machine, run `git config` (in any directory) to set your name, email, and preferred options.
+On your machine, run these `git config` commands below (in any directory) to set your name, email, and preferred options.
 
 Examples:
 
@@ -30,7 +30,7 @@ Examples:
 
 Note `user.name` is not your GitHub username but rather your name.
 
-*(Our git tutorial assumes you will use vi as your editor, but if you wish to use emacs or some other plain text editor as your default, just type `git config --global core.editor "emacs"' or the analogous command.)*
+*(Our git tutorial assumes you will use nano as your editor, but if you wish to use emacs or some other plain text editor as your default, just type `git config --global core.editor "emacs"` or the analogous command.)*
 
 You can check what you’ve done with
 
@@ -41,7 +41,7 @@ You can get more details on config option by typing
     git config -h        # short version
     git config --help    # long version
 
-On your laptop, run `git config` with the same answers used above for your linux machine (to get a terminal, under Windows go to start menu and type "gitbash" to search, or under Mac go to spotlight and type "terminal" to search).
+
 
 ## 3. Complete the tutorial below.
 
