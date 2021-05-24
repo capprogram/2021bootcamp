@@ -53,3 +53,15 @@ For the purposes of this tutorial we will only use numpy, the basic numerical an
 import numpy as np
 import matplotlib.pyplot as plt
 ```
+#### Interlude on Comments 
+
+The `#` signs and the text after them indicate comments explaining what these commands do. Comments are ignored by python and not executed. They are very useful for reminding yourself what a program is actually doing when you go back to look at it a few months after writing it.
+
+Now back to arrays. We wish to create a numerical array, as opposed to a list of numbers. To see how these differ, first type
+
+```python
+x=np.array([1,2,3,4])
+y=np.array([4,0,3,2])
+z=x+y
+print z
+```
