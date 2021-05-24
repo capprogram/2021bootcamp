@@ -96,7 +96,7 @@ If we run `git status` now:
 ```
 $ git status
 # On branch master
-nothing to commit, working directory clean
+nothing to commit, working tree clean
 ```
 
 it tells us everything is up to date.
