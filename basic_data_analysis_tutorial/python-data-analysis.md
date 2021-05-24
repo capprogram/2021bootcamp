@@ -12,6 +12,6 @@ See installation instructions for your [personal laptop](https://github.com/capp
 
 ## Part II: Getting Started and Recording Your Work
 
-After installing Anaconda, find the "Spyder" app in the installation folder or your programs menu, which will provide a nice user interface. On the department astro linux machines, you can simply type `spyder` in the command prompt after you have activated `unc_anaconda` and your virtualenv `astro` (for details see instructions for setup). Spyder may take a while to start up, because of all the python libraries it is loading.
+After installing Anaconda, search for anaconda on your computer and open up the anaconda navigator app which will have a nice user interface. Then, find the "Spyder" app. 
 
 ![Screenshot of Spyder](spyder.png)
