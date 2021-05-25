@@ -92,9 +92,9 @@ Now we need to merge the changes. To do this, the Collaborator submits a pull re
 
 The Collaborator will then be given a review page that presents an overview of the changes, and a place to write a comment. After filling them in click `Create pull request`.
 
-Now it is the owners job to review the proposed changes. On the owners gitub page, go to the pull requests tab. Click on the new pull request from the contributor to review the suggested changes, add comments if necessary.
+Now it is the owners job to review the proposed changes. On the owners gitub page, go to the pull requests tab. Click on the new pull request from the contributor to review the suggested changes, add comments if necessary. Make sure you approve the changes.
 
-Once you are ready to merge you can click `Merge pull request` to merge the branch with master on github. Both the owner and collaborator can now pull the changes from master on github to master in their local copies by entering
+Once you are ready to merge you can click `Merge pull request` to merge the branch with master on github. Go back into the code tab to ensure that the changes were actually approved. Both the owner and collaborator can now pull the changes from master on github to master in their local copies by entering
 
 ```
 $ git pull origin master
