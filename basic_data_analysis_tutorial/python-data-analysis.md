@@ -119,3 +119,16 @@ Extensive lists of additional functions can be found in the documentation for th
 5. [AstroML](http://www.astroml.org/modules/classes.html)
 
 Moreover, there are thousands of other python libraries we will not be using -- someday you may create your own library!
+
+### Logging Your Work
+Now that you've seen the basics, let's start recording your work. To do this, you should paste all your successful commands from the History or Console window into the Editor window, where they will become a program (sequence of commands). Paste in the output from your successful commands, inserting a `#` comment character before each line of output so that python does not try to interpret the output as a command. The program file in the Editor window will initially be labeled `.temp.py` but you should save it under the new name `tutorialanswers_yournamehere.py` in a different folder that you will use for all your python files. Also put a comment at the top with your name and date. Now you can check your answers by saving and running your program with the `Save` (disk icon) and `Run` (green play arrow icon) buttons at the top of Spyder.
+
+At last, it's time to show off your new python skills "for the record."
+
+1. Using `arange`, create an array called `myarray` that has the same length as the number of letters in your last name and counts up from 1.
+2. Create a second array that is the square root of the first. Call the second array `rootarray`. How many elements are in `rootarray`? If it's not the same as the number of letters in your last name, you have a problem.
+3. Compute myarray divided by rootarray. You can name the result `ratio`. Careful! Check that myarray has more than one element. If it doesn't have the same number of elements as the number of letters in your last name, go back and review the section on `Simple Math` above.
+4. Multiply ratio times rootarray. Does the result make sense?
+5. Add a comment to your program file to answer the question from (4), i.e. explain why the result makes sense.
+
+The final version of your program file should contain only successful commands and their output (as comments).
