@@ -9,7 +9,7 @@ Often you may want to test out a new feature in some code. You may or may not de
 
 Create a file called pluto in your repository, add and commit it
 ```
-$ vi pluto.txt
+$ nano pluto.txt
 $ cat pluto.txt
 It is so a planet!
 git add pluto.txt
@@ -51,7 +51,7 @@ $ git branch
 Suppose we have some updated information on pluto suggesting it has a heart on its surface, but we aren't sure that we will want to include this detail in our final document. Let's include it in the `pluto.txt` file in our experimental branch:
 
 ```
-$ vi pluto.txt
+$ nano pluto.txt
 $ cat pluto.txt
 It is so a planet!
 A planet with a charming heart on its surface; What's not to love?
@@ -131,7 +131,7 @@ Branching and merging can get more complicated with multiple versions. Suppose w
 ```
 $ git branch
 * master
-$ vi pluto.txt
+$ nano pluto.txt
 $ cat pluto.txt
 Co-signers (alphabetical order for now): Dracula, Frankenstein, Mummy, and Wolfman
 It is so a planet!
@@ -175,7 +175,7 @@ nothing to commit, working tree clean
 Now we can add Wolfman's input and move him up the author list.
 
 ```
-$ vi pluto.txt
+$ nano pluto.txt
 $ cat pluto.txt
 Co-signers: Wolfman, Dracula, Frankenstein, and Mummy
 It is so a planet!
@@ -197,7 +197,7 @@ Meanwhile, Dracula sends us his version of `pluto.txt`, so let's return to maste
 $ git checkout master
 $ git branch dracula
 $ git checkout dracula
-$ vi pluto.txt
+$ nano pluto.txt
 $ cat pluto.txt
 Co-signers (alphabetical order for now): Dracula, Frankenstein, Mummy, and Wolfman
 It is so a planet!
@@ -275,7 +275,7 @@ To complete the merge that failed, we now have to edit the file with the conflic
 It is now up to us to edit this file to remove these markers and reconcile the changes. We can do anything we want: keep the change made in the local repository, keep the change made in the remote repository, write something new to replace both, or get rid of the change entirely. Let's keep Wolfman's author order, but make Dracula feel he was heard by including a less bloodthirsty version of his contribution.
 
 ```
-$ vi pluto.txt
+$ nano pluto.txt
 $ cat pluto.txt
 Co-signers: Wolfman, Dracula, Frankenstein, and Mummy
 It is so a planet!
