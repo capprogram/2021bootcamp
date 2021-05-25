@@ -34,8 +34,8 @@ Now both the Collaborator and the Owner have a local copy of the master branch o
 1. Owner should navigate to the main page of the repository on github.
 2. Under the repository name, click Settings.
 3. In the left menu, click Branches.
-4. Under Branch Protection Rules, select the master branch.
-5. Select "Protect this branch" and also "Require pull request reviews before merging", and click Save changes.
+4. Under Branch Protection Rules, select the master branch or name the master branch after clicking on the button in Branch Protection Rules.
+5. Select "Require pull request reviews before merging", and click Save changes.
 
 ## Make changes to a branch
 The Collaborator should make a branch of the Collaborator's local master and switch to it
