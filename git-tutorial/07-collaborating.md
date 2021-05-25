@@ -50,7 +50,7 @@ exactly the same way as we've been doing before:
 
 ```
 $ cd ~/Desktop/vlad-planets
-$ vi pluto.txt
+$ nano pluto.txt
 $ cat pluto.txt
 Co-signers: Wolfman, Dracula, Frankenstein, and Mummy
 It is so a planet!
