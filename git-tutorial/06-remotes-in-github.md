@@ -122,8 +122,7 @@ What information can you gather/explore from these buttons?
 How would you get that same information in the shell?
 
 ## GitHub Timestamp
-Create a remote repository on GitHub.  Push the contents of your local
-repository to the remote.  Make changes to your local repository and push
+Make changes to your local planets/ repository (add a file called mercury.txt or so) and push
 these changes.  Go to the repo you just created on Github and check the
 timestamps of the files.  How does GitHub record
 times, and why?
