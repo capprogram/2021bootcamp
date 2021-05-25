@@ -14,8 +14,8 @@ then select Collaborators, and enter your partner's username.
 
 ![Adding Collaborators on GitHub](fig/github-add-collaborators.png)
 
-To accept access to the Owner's repo, the Collaborator needs to go to [https://github.com/notifications](https://github.com/notifications).
-Once there she can accept access to the Owner's repo.
+To accept access to the Owner's repo, the Collaborator needs to go to [https://github.com/notifications](https://github.com/notifications) or check their email account associated with Github.
+Once there they can accept access to the Owner's repo.
 
 ## Make copies
 Next, the Collaborator needs to download a copy of the Owner's repository to her
