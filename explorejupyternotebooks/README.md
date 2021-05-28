@@ -9,7 +9,9 @@ To complete this tutorial:
  * close open tabs in the Lab (not necessary, just less confusing)
  * open a terminal in the Lab (File>New>Terminal)
  * paste the following into the terminal to get the jupyter notebook:<br/>
-  `wget https://raw.githubusercontent.com/capprogram/bootstrapping/master/bootstrapping.ipynb -P /home/jovyan/demo`
+  `wget https://raw.githubusercontent.com/capprogram/explorejupyternotebooks/master/ExploreRESOLVEandECO.ipynb -P /home/jovyan/demo`
+  `wget https://raw.githubusercontent.com/capprogram/explorejupyternotebooks/master/ECO_dr1_subset.csv.ipynb -P /home/jovyan/demo`
+  
  * type the following into the terminal to get the astroML package:<br/>
    `pip install astroML`
  * if necessary, click the refresh page (curled arrow) at the top of the webpage
