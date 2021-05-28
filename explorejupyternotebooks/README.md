@@ -18,7 +18,7 @@ Optional: Use these [jupyter notebook quickstart instructions](https://jupyter-n
 
 
 
-Below are additional instructions to open the `ExploreRESOLVEandECO.ipynb` tutorial in JupyterLab:
+Below are additional instructions to open the `ExploreRESOLVEandECO.ipynb` tutorial in JupyterLab if you prefer that:
 
  * go to https://jupyter.org/try
  * click "Try JupyterLab"
