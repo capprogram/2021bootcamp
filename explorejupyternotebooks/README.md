@@ -8,7 +8,7 @@ To complete this tutorial:
  * click "Try JupyterLab"
  * close open tabs in the Lab (not necessary, just less confusing)
  * open a terminal in the Lab (File>New>Terminal)
- * paste the following into the terminal to get the jupyter notebook:<br/>
+ * paste the following lines into the terminal to get the jupyter notebook:<br/>
   `wget https://raw.githubusercontent.com/capprogram/explorejupyternotebooks/master/ExploreRESOLVEandECO.ipynb -P /home/jovyan/demo`
   `wget https://raw.githubusercontent.com/capprogram/explorejupyternotebooks/master/ECO_dr1_subset.csv.ipynb -P /home/jovyan/demo`
   
