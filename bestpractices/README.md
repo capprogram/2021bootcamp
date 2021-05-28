@@ -2,7 +2,7 @@
 
 To complete this tutorial:
 
- * Go to the Github Bootcamp page and go into the directory for "bestpractices"
+ * Go to the Github Bootcamp page and go into the directory for "bestpractices" (which you are probably already in if you see this document)
  * Click on the colab_bestpractices.ipynb link
  * After that, copy the URL, go to https://colab.research.google.com and click on the github tab when opening a file
  * If you are okay with it, allow google drive to have access to your github. This script should still work if you deny access.
