@@ -1,0 +1,1 @@
+Check out the 10 Minutes to pandas guide to see if you'd like to learn more about this powerful data manipulation package. If you've learned about jupyter notebooks, you can play with some useful pandas commands in this pandas tutorial notebook (again, right-click on raw and "save as" to get the actual notebook file so you can run it yourself; you'll also need this input file).
