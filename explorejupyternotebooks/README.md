@@ -25,6 +25,7 @@ Below are additional instructions to open the `ExploreRESOLVEandECO.ipynb` tutor
  * close open tabs in the Lab (not necessary, just less confusing)
  * open a terminal in the Lab (File>New>Terminal)
  * paste the following lines into the terminal to get the jupyter notebook:<br/>
+  
   `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/explorejupyternotebooks/ExploreRESOLVEandECO.ipynb -P /home/jovyan/demo`
  
   `wget https://raw.githubusercontent.com/capprogram/explorejupyternotebooks/master/ECO_dr1_subset.csv.ipynb -P /home/jovyan/demo`
