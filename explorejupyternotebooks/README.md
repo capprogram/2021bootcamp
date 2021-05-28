@@ -2,6 +2,22 @@
 
 This tutorial is **Optional**
 
+Optional: Use these jupyter notebook quickstart instructions to examine the example jupyter notebook called `ExploreRESOLVEandECO.ipynb` (found in the current repo; download by clicking "raw" then right-clicking the raw contents and choosing "save as"). You can run this notebook partway through if you also download the `ECO_dr1_subset.csv` input file also provided in this repo. If you like the idea of being able to work in notebooks like this, then you can get comfortable with them first by finishing the example notebook (this effort will also give you a small taste of the sql database query language), then by creating your own jupyter notebook from scratch. For example, you could use ECO DR1 to plot stellar mass vs. environment distributions and compare them for early type and late type galaxies.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 To complete this tutorial:
 
  * go to https://jupyter.org/try
