@@ -18,7 +18,7 @@ Optional: Use these [jupyter notebook quickstart instructions](https://jupyter-n
 
 
 
-To complete this tutorial:
+Below are additional instructions to open the `ExploreRESOLVEandECO.ipynb` tutorial in JupyterLab:
 
  * go to https://jupyter.org/try
  * click "Try JupyterLab"
@@ -27,9 +27,6 @@ To complete this tutorial:
  * paste the following lines into the terminal to get the jupyter notebook:<br/>
   `wget https://raw.githubusercontent.com/capprogram/explorejupyternotebooks/master/ExploreRESOLVEandECO.ipynb -P /home/jovyan/demo`
   `wget https://raw.githubusercontent.com/capprogram/explorejupyternotebooks/master/ECO_dr1_subset.csv.ipynb -P /home/jovyan/demo`
-  
- * type the following into the terminal to get the astroML package:<br/>
-   `pip install astroML`
  * if necessary, click the refresh page (curled arrow) at the top of the webpage
  * launch the jupyter notebook by double clicking on it
  * you can run or re-run individual cells in the notebook by clicking on them and typing Ctrl-Enter
