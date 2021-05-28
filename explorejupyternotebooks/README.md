@@ -28,7 +28,7 @@ Below are additional instructions to open the `ExploreRESOLVEandECO.ipynb` tutor
   
   `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/explorejupyternotebooks/ExploreRESOLVEandECO.ipynb -P /home/jovyan/demo`
  
-  `wget https://raw.githubusercontent.com/capprogram/explorejupyternotebooks/master/ECO_dr1_subset.csv.ipynb -P /home/jovyan/demo`
+  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/explorejupyternotebooks/ECO_dr1_subset.csv -P /home/jovyan/demo`
  * if necessary, click the refresh page (curled arrow) at the top of the webpage
  * launch the jupyter notebook by double clicking on it
  * you can run or re-run individual cells in the notebook by clicking on them and typing Ctrl-Enter
