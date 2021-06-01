@@ -1,4 +1,4 @@
-Please read [this link](https://www.pythonlikeyoumeanit.com/Module3_IntroducingNumpy/Broadcasting.html) up until the end of the section titled "The Final Answer, At Last!". This page will go over how mathematical operations on arrays of different shapes will turn out. It is fairly thorough so I would recommend following along with the code in python/spyder yourself to test out some of the broadcasting. You do not have to do the blue rectangles labeled "Reading Comprehension" but I would consider at least reading over them and thinking critically about them. below are some additional tips that may be nice to know before you follow along with this document:
+Please read [this link](https://www.pythonlikeyoumeanit.com/Module3_IntroducingNumpy/Broadcasting.html) up until the end of the section titled "The Final Answer, At Last!". This page will go over how mathematical operations on arrays of different shapes will turn out. It is fairly thorough with examples so I would recommend following along with the code in python/spyder yourself to test out some of the broadcasting. You do not have to do the blue rectangles labeled "Reading Comprehension" but I would consider at least reading over them and thinking critically about them. below are some additional tips that may be nice to know before you follow along with this document:
 
 In another tab on this same website, they formally define "Vectorized Operations". Read over this definition:
 ________________________________________________________
@@ -12,7 +12,7 @@ Some tips for two sections in the Broadcasting link itself
 **Rules of Broadcasting**: While this section is pretty straight-forward, just be sure to get into the habit of checking the results after you do some vector math to make sure the output is as you expected. Since vector math with numpy arrays is "smart" in that it figures out how to handle the mathematical operations, that means it may not return an error when it is doing something you don't expect. Checking the input and output while broadcasting would be your best bet to avoid any mistakes. 
 
 
-**Optimized Pairwise Distances**: Do not feel the need to do the part that says "It is left to the reader to show that computing this sum..." if you do not want to. You may just take that as an accepted identity and continue along with the guide.  
+**Optimized Pairwise Distances**: Do not feel the need to do the part that says "It is left to the reader to show that computing this sum..." if you do not want to. You may just take that as an accepted identity and continue along with the guide. 
 
 
 
