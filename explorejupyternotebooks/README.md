@@ -22,4 +22,4 @@ Below are additional instructions to open the `ExploreRESOLVEandECO.ipynb` tutor
  * Additionally, type this into the terminal to get the astroML package: `pip install astroML`
  * if necessary, click the refresh page (curled arrow) at the top of the webpage
  * launch the jupyter notebook by double clicking on it
- * you can run or re-run individual cells in the notebook by clicking on them and typing Ctrl-Enter
+ * you can run or re-run individual cells in the notebook by clicking on them and typing Ctrl-Enter.
