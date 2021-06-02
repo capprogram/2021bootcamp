@@ -8,7 +8,7 @@ Here is a one page [Quick Reference](http://user.physics.unc.edu/~sheila/PythonQ
 
 ## Part I: Installation of Anaconda
 
-See installation instructions for your [personal laptop](https://github.com/capprogram/2017bootcamp-general/blob/master/python-setup-laptop.md). Make sure to install Python 3.0 or higher. 
+You should be able to install anaconda simply by going to [this link](https://docs.anaconda.com/anaconda/install/windows/) and downloading the appropriate version for your computer.
 
 ## Part II: Getting Started and Recording Your Work
 
