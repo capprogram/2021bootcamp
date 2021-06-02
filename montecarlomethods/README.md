@@ -7,14 +7,14 @@
  * click "Try JupyterLab"
  * open a terminal in the Lab (File>New>Terminal)
  * paste the following into the terminal to get the jupyter notebook:<br/>
-  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/montecarlomethods/MonteCarloMethods.ipynb -P /home/jovyan/demo`
+  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/montecarlomethods/MonteCarloMethods.ipynb?token=ACPDL67MPAJGQB5LA7NJSILAYFFJU -P /home/jovyan/demo`
  * paste all of the following into the terminal to get the individual python codes:<br/>
-  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/montecarlomethods/partI_1and2.py -P /home/jovyan/demo` <br>
-  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/montecarlomethods/partI_3and4.py -P /home/jovyan/demo` <br>
-  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/montecarlomethods/partII_1.py -P /home/jovyan/demo` <br>
-  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/montecarlomethods/partII_2.py -P /home/jovyan/demo` <br>
-  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/montecarlomethods/partIII_1.py -P /home/jovyan/demo` <br>
-  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/montecarlomethods/partIII_2.py -P /home/jovyan/demo` <br>
+  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/montecarlomethods/partI_1and2.py?token=ACPDL64BFD4TMNCOKEK5SP3AYFFUU -P /home/jovyan/demo` <br>
+  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/montecarlomethods/partI_3and4.py?token=ACPDL62VWCAUE3BX5422PJLAYFFYQ -P /home/jovyan/demo` <br>
+  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/montecarlomethods/partII_1.py?token=ACPDL62VOC7V23YJAROMH3LAYFF3O -P /home/jovyan/demo` <br>
+  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/montecarlomethods/partII_2.py?token=ACPDL62SA3AA4KEPUWV6MOTAYFF7C -P /home/jovyan/demo` <br>
+  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/montecarlomethods/partIII_1.py?token=ACPDL6YCXXB4V5RVOPXLJATAYFGDG -P /home/jovyan/demo` <br>
+  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/montecarlomethods/partIII_2.py?token=ACPDL6YIFKYPMAI5UVLXS6TAYFGGC -P /home/jovyan/demo` <br>
  * if necessary, click the refresh page (curled arrow) at the top of the webpage
  * launch the jupyter notebook by double clicking on it
  * you can run or re-run individual cells in the notebook by clicking on them and typing Ctrl-Enter
