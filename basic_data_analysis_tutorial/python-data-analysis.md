@@ -51,7 +51,7 @@ import numpy.random as npr	# random number generation
 import astropy as ap		# core astronomy library
 import astroML as ml		# machine learning for astronomy
 import astroML.datasets as mld 	# datasets
-import pymc			# bayesian methods including markov chain monte carlo
+import pymc3			# bayesian methods including markov chain monte carlo
 ```
 
 For the purposes of this tutorial we will only use numpy, the basic numerical analysis library, and matplitlib, a plotting library, so you only need to type
