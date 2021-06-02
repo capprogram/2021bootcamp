@@ -13,7 +13,7 @@ You should be able to install anaconda simply by going to [this link](https://do
     conda install astropy
     conda install git
     pip install git+https://github.com/astroML/astroML
-    conda install pymc
+    pip install pymc3
     
 It may ask you if you want to install packages saying [y]/n. Just press enter or type y and press enter.
 
