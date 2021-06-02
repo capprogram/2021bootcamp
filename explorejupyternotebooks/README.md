@@ -1,13 +1,7 @@
 ## Exploring Jupyter Notebooks
 
-This tutorial is **Optional**
 
-
-
-
-
-
-Below are additional instructions to open the `ExploreRESOLVEandECO.ipynb` tutorial in JupyterLab if you prefer that:
+Below are additional instructions to open the `ExploreECO.ipynb` tutorial in JupyterLab if you prefer that:
 
  * go to https://jupyter.org/try
  * click "Try JupyterLab"
@@ -15,7 +9,7 @@ Below are additional instructions to open the `ExploreRESOLVEandECO.ipynb` tutor
  * open a terminal in the Lab (File>New>Terminal)
  * paste the following lines into the terminal to get the jupyter notebook:<br/>
   
-  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/explorejupyternotebooks/ExploreRESOLVEandECO.ipynb -P /home/jovyan/demo`
+  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/explorejupyternotebooks/ExploreECO.ipynb -P /home/jovyan/demo`
  
   `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/explorejupyternotebooks/ECO_dr1_subset.csv -P /home/jovyan/demo`
  

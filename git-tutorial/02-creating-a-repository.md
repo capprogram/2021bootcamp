@@ -4,7 +4,7 @@
 
 # 2. Creating a Repository
 
-Once Git is configured, we can start using it. Note that Git uses the Bash coding language, and we may employ simple commands in that language. Here is a small list of some basic commands:
+Once Git is configured, we can start using it. Note that Git uses the Bash coding language, and we may employ simple commands in that language. Here is a small list of some basic commands that will come up a lot during the entire git tutorial:
 
   `mkdir [name]` = will make a directory called [name]
 

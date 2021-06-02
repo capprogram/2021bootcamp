@@ -2,13 +2,20 @@
 
 To learn to load, manipulate, and plot data, complete the following tutorial.
 
-The tutorial assumes you will use the graphical Spyder interface in the Anaconda distribution of python, and explains how to install Anaconda. If you want to use Python in a terminal instead, look at these [alternative instructions and commands](https://github.com/capprogram/2017bootcamp-general/blob/master/ipython-terminal.md) for use with ipython on the linux command line. 
+The tutorial assumes you will use the graphical Spyder interface in the Anaconda distribution of python, and explains how to install Anaconda. . 
 
 Here is a one page [Quick Reference](http://user.physics.unc.edu/~sheila/PythonQuickReference.pdf) for the commands used in this tutorial.
 
 ## Part I: Installation of Anaconda
 
-See installation instructions for your [personal laptop](https://github.com/capprogram/2017bootcamp-general/blob/master/python-setup-laptop.md) or a [department workstation](https://github.com/capprogram/2017bootcamp-general/blob/master/python-setup-linux.md). Make sure to install Python 3.0 or higher. 
+You should be able to install anaconda simply by going to [this link](https://docs.anaconda.com/anaconda/install/windows/) and downloading the appropriate version for your computer. After installing anaconda, open up the anaconda terminal (may be called CMD.exe Prompt) and type these in one line at a time and press enter to install each one:
+
+    conda install astropy
+    conda install git
+    pip install git+https://github.com/astroML/astroML
+    pip install pymc3
+    
+It may ask you if you want to install packages saying [y]/n. Just press enter or type y and press enter.
 
 ## Part II: Getting Started and Recording Your Work
 
@@ -44,7 +51,7 @@ import numpy.random as npr	# random number generation
 import astropy as ap		# core astronomy library
 import astroML as ml		# machine learning for astronomy
 import astroML.datasets as mld 	# datasets
-import pymc			# bayesian methods including markov chain monte carlo
+import pymc3			# bayesian methods including markov chain monte carlo
 ```
 
 For the purposes of this tutorial we will only use numpy, the basic numerical analysis library, and matplitlib, a plotting library, so you only need to type
