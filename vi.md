@@ -6,7 +6,7 @@ Launch the vi text editor by typing `vi filename.txt` into Git Bash. This will o
 
 To enter text press `i` to go into insert mode (note `-- INSERT -- ` is displayed at the bottom of the screen. From here you can enter text, move the cursor with the arrow keys, select text, copy and paste with the mouse etc.
 
-To go back to command mode press `ESC`. You can now enter commands (note you must type the leading `colon :`, as well as press `[Enter]` after the command eg: `:w[Enter]`)
+To go back to command mode press `ESC`. You can now enter commands (note you must type a leading `:`, as well as press `[Enter]` after the command eg: `:w[Enter]`)
 
 ```
 :w save (write) the active file
