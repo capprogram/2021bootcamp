@@ -4,7 +4,7 @@
 # 3. Tracking Changes
 
 Let's create a file called `mars.txt` that contains some notes
-about the Red Planet's suitability as a base. The below command will open a file in nano that is called 'mars.txt'
+about the Red Planet's suitability as a base. The below command will open a file in nano that is called `mars.txt`
 
 ```
 $ nano mars.txt
