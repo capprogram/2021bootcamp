@@ -15,6 +15,8 @@ Assuming Git is configured, we can start using it. Note that Git uses the Bash c
   `cd ..` = will send you one directory up
 
   `ls` = list the contents of the current directory
+  
+  `cat [filename]` = prints out the contents of filename into the terminal
 
 Let's create a directory for our work and then move into that directory:
 ```
