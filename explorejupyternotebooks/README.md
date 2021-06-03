@@ -9,9 +9,9 @@ Below are additional instructions to open the `ExploreECO.ipynb` tutorial in Jup
  * open a terminal in the Lab (File>New>Terminal)
  * paste the following lines into the terminal to get the jupyter notebook:<br/>
   
-  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/explorejupyternotebooks/ExploreECO.ipynb -P /home/jovyan/demo`
+  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/explorejupyternotebooks/ExploreECO.ipynb?token=AHJ5VUHE2TIJTDFMWSWZ3Q3AYJNOA -O /home/jovyan/demo/ExploreECO.ipynb`
  
-  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/explorejupyternotebooks/ECO_dr1_subset.csv -P /home/jovyan/demo`
+  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/explorejupyternotebooks/ECO_dr1_subset.csv?token=AHJ5VUHX7IOUT4GQAXBOVJ3AYJNQQ -O /home/jovyan/demo/Eco_dr1_subset.csv`
  
  * Additionally, type this into the terminal to get the astroML package: `pip install astroML`
  * if necessary, click the refresh page (curled arrow) at the top of the webpage
