@@ -21,7 +21,7 @@ You can check what you’ve done with
 
     git config --list
     
-You can get more details on config option by typing
+Press q to quit out of the above command. You can get more details on config option by typing
 
     git config -h        # short version
     git config --help    # long version
