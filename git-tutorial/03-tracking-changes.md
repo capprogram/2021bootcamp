@@ -16,7 +16,7 @@ Type the text below into the `mars.txt` file:
 Mild and dry, but everything is my favorite color
 ```
 
-Save and quit. `mars.txt` now contains a single line, which we can see by running:
+Save and quit by pressing Ctrl+x (in nano, the ^X command to close the file means to press Ctrl+x) and then pressing yes to save the buffer, and then pressing enter to save it as `mars.txt`. `mars.txt` now contains a single line, which we can see by running:
 
 ```
 $ cat mars.txt
