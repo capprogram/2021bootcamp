@@ -70,7 +70,7 @@ Now back to arrays. We wish to create a numerical array, as opposed to a list of
 x=np.array([1,2,3,4])
 y=np.array([4,0,3,2])
 z=x+y
-print z
+print(z)
 ```
 
 and look at how these variables appear in the Variable explorer. Now type
@@ -79,7 +79,7 @@ and look at how these variables appear in the Variable explorer. Now type
 x=[1,2,3,4]
 y=[4,0,3,2]
 z=x+y
-print z
+print(z)
 ```
 and compare. For present purposes, we are *not* interested in the `list` behavior of the second set of commands, but only the `array` behavior of the first set. It's also worth noting that python happily overwrites x, y, and z with no error message, even when it means changing their variable types -- this behavior is different from that of programming languages that declare variables.
 
