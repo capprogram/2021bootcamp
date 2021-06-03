@@ -16,5 +16,5 @@ Install git for your laptop from one of these links:
  
 For Git installation, all the default installation options are fine except you may prefer to decline using vi as the default text editor and choose nano instead (you will see instructions to change this later if you would like to). 
 
-For now, just install Git (and potentially restart your computer) and we can play with it later. Return back to the main wiki and continue with the tutorials
+For now, just install Git (and possibly restart your computer if it says to) and we can play with it later. Return back to the main wiki and continue with the tutorials
 
