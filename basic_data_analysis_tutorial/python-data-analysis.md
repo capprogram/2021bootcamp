@@ -8,7 +8,7 @@ Here is a one page [Quick Reference](http://user.physics.unc.edu/~sheila/PythonQ
 
 ## Part I: Installation of Anaconda
 
-You should be able to install anaconda simply by going to [this link](https://docs.anaconda.com/anaconda/install/windows/) and downloading the appropriate version for your computer. After installing anaconda, open up the anaconda terminal (may be called CMD.exe Prompt) and type these in one line at a time and press enter to install each one:
+You should be able to install anaconda simply by going to [this link](https://docs.anaconda.com/anaconda/install/windows/) and downloading the appropriate version for your computer. After installing anaconda, start the anaconda navigator program, open up the anaconda terminal (may be called CMD.exe Prompt), and type these in one line at a time and press enter to install each one:
 
     conda install astropy
     conda install git
@@ -19,7 +19,7 @@ It may ask you if you want to install packages saying [y]/n. Just press enter or
 
 ## Part II: Getting Started and Recording Your Work
 
-After installing Anaconda, search for anaconda on your computer and open up the anaconda navigator app which will have a nice user interface. Then, find the "Spyder" app. 
+Open up the anaconda navigator app which will have a nice user interface. Then, find the "Spyder" app. 
 
 ![Screenshot of Spyder](spyder.png)
 
