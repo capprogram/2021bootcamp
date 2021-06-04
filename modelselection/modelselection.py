@@ -1,12 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jun  4 09:24:47 2021
 
-@author: Derrick
-"""
 '''
 Frequentist and Bayesian Model Selection Tutorial
-by Sheila Kannappan, adapted from course materials June 2017
+by Sheila Kannappan, adapted from course materials June 2017 - last modified June 2021
 '''
 
 import numpy as np
