@@ -6,10 +6,10 @@ To complete this tutorial:
  * click "Try JupyterLab"
  * open a terminal in the Lab (File>New>Terminal)
  * paste the following into the terminal to get the jupyter notebook:<br/>
-  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/bestpractices/bestpractices.ipynb -P /home/jovyan/demo`
+  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/bestpractices/bestpractices.ipynb?token=AHJ5VUG7KZN7DQVL45YW2EDAYJUPW -O /home/jovyan/demo/bestpractices.ipynb`
  * paste both of the following into the terminal to get the two python codes:<br/>
-  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/bestpractices/templatecode.py -P /home/jovyan/demo` <br>
-  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/bestpractices/templatecodeprotected.py -P /home/jovyan/demo`
+  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/bestpractices/templatecode.py?token=AHJ5VUHTDGUXDHVFQCVDUADAYJURW -O /home/jovyan/demo/templatecode.py` <br>
+  `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/bestpractices/templatecodeprotected.py?token=AHJ5VUFCDDTBPFDX47ETTQ3AYJUQ6 -O /home/jovyan/demo/templatecodeprotected.py`
  * if necessary, click the refresh page (curled arrow) at the top of the webpage
  * launch the jupyter notebook by double clicking on it
  * you can run or re-run individual cells in the notebook by clicking on them and typing Ctrl-Enter

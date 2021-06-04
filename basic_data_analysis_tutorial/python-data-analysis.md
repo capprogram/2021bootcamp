@@ -8,7 +8,7 @@ Here is a one page [Quick Reference](http://user.physics.unc.edu/~sheila/PythonQ
 
 ## Part I: Installation of Anaconda
 
-You should be able to install anaconda simply by going to [this link](https://docs.anaconda.com/anaconda/install/windows/) and downloading the appropriate version for your computer. After installing anaconda, open up the anaconda terminal (may be called CMD.exe Prompt) and type these in one line at a time and press enter to install each one:
+You should be able to install anaconda simply by going to [this link](https://docs.anaconda.com/anaconda/install/windows/) and downloading the appropriate version for your computer. After installing anaconda, start the anaconda navigator program, open up the anaconda terminal (may be called CMD.exe Prompt), and type these in one line at a time and press enter to install each one:
 
     conda install astropy
     conda install git
@@ -19,7 +19,7 @@ It may ask you if you want to install packages saying [y]/n. Just press enter or
 
 ## Part II: Getting Started and Recording Your Work
 
-After installing Anaconda, search for anaconda on your computer and open up the anaconda navigator app which will have a nice user interface. Then, find the "Spyder" app. 
+Open up the anaconda navigator app which will have a nice user interface. Then, find the "Spyder" app. 
 
 ![Screenshot of Spyder](spyder.png)
 
@@ -27,7 +27,7 @@ The first thing to note is how the Spyder app is organized. The application incl
 
 You may want to change the default way graphs are plotted from a static inline image to an interactive window that you can resize/pan/zoom etc. To set this under `Tools -> Preferences`, select `IPython console` from the sidebar, go to the `Graphics` tab, and set the backend as `Automatic`.
 
-The IPython console is where python is waiting for you to type commands, which tell it to load data, do math, plot data, etc. After every command, which looks like `In[1]: command`, you need to hit the enter key (return key), and then python may or may not give some output. The Editor allows you to write sequences of commands, which together make up a program. The History Log stores the last 100 commands you've typed into the Console. The top-right block (which I currently set to variable explorer) is purely informational -- if you watch what the first two display as we go through the tutorial, you'll see that they can be quite helpful.
+The IPython console is where python is waiting for you to type commands, which tell it to load data, do math, plot data, etc. After every command, which looks like `In[1]: command`, you need to hit the enter key (return key), and then python may or may not give some output. The Editor allows you to write sequences of commands, which together make up a program. The History Log stores the last 100 commands you've typed into the Console. The top-right block (which I currently set to variable explorer) is purely informational -- if you watch what the displays as we go through the tutorial, you'll see that they can be quite helpful.
 
 ### Entering Data
 Type `x=5` in the Console -- this is the command to create a variable named x and give it the value 5. If you look at the `Variable explorer` tab you will see that x has been added to the list of variables in python's memory. You can also type `print x` or even just `x` in the Console to see the value of x. Now type `y=4` and then `x+y`. Notice that this last command does not create a variable, although it does produce an output from the calculation.
@@ -70,7 +70,7 @@ Now back to arrays. We wish to create a numerical array, as opposed to a list of
 x=np.array([1,2,3,4])
 y=np.array([4,0,3,2])
 z=x+y
-print z
+print(z)
 ```
 
 and look at how these variables appear in the Variable explorer. Now type
@@ -79,7 +79,7 @@ and look at how these variables appear in the Variable explorer. Now type
 x=[1,2,3,4]
 y=[4,0,3,2]
 z=x+y
-print z
+print(z)
 ```
 and compare. For present purposes, we are *not* interested in the `list` behavior of the second set of commands, but only the `array` behavior of the first set. It's also worth noting that python happily overwrites x, y, and z with no error message, even when it means changing their variable types -- this behavior is different from that of programming languages that declare variables.
 
@@ -128,7 +128,7 @@ Extensive lists of additional functions can be found in the documentation for th
 Moreover, there are thousands of other python libraries we will not be using -- someday you may create your own library!
 
 ### Logging Your Work
-Now that you've seen the basics, let's start recording your work. To do this, you should paste all your successful commands from the History or Console window into the Editor window, where they will become a program (sequence of commands). Paste in the output from your successful commands, inserting a `#` comment character before each line of output so that python does not try to interpret the output as a command. The program file in the Editor window will initially be labeled `.temp.py` but you should save it under the new name `tutorialanswers_yournamehere.py` in a different folder that you will use for all your python files. Also put a comment at the top with your name and date. Now you can check your answers by saving and running your program with the `Save` (disk icon) and `Run` (green play arrow icon) buttons at the top of Spyder.
+Now that you've seen the basics, let's start recording your work. To do this, you should paste all your successful commands from the History or Console window into the Editor window, where they will become a program (sequence of commands). Paste in the output from your successful commands, inserting a `#` comment character before each line of output so that python does not try to interpret the output as a command. Be sure to also comment out the lines that were not intended to work. The program file in the Editor window will initially be labeled `.temp.py` or `untitiled0.py` but you should save it under the new name `tutorialanswers_yournamehere.py` in a different folder that you will use for all your python files. Also put a comment at the top with your name and date if it doesn't already exist. Now you can check your answers by saving and running your program with the `Save` (disk icon) and `Run` (green play arrow icon) buttons at the top of Spyder where running your code also saves it. You can also press Shift+enter in the text editor to run it all.
 
 At last, it's time to show off your new python skills "for the record."
 
