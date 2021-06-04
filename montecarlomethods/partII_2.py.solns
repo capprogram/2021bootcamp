@@ -1,7 +1,5 @@
 # get the equation for a Gaussian from the solutions to part I
 
-# uncomment this line if you need to
-from __future__ import division # make division act like python3 even if 2.7
 import numpy.random as npr
 import numpy as np
 
