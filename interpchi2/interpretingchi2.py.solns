@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import numpy.random as npr
 
 # experiment to illustrate Monte Carlo creation of chi^2 
-# distributions for two values of N and model with no free
+# distributions for two values of N and a model with no free
 # parameters (so df = N-k = N)
 
 #i=0
