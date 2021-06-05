@@ -1,13 +1,11 @@
-
 '''
 Frequentist and Bayesian Model Selection Tutorial
-by Sheila Kannappan, adapted from course materials June 2017 - last modified June 2021
+by Sheila Kannappan, adapted from course materials June 2017 - updated June 2021
 '''
 
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.stats as stats
-from astroML.utils import check_random_state
 
 # you are given a file of input data xx and yy; the uncertainties are unknown
 # but believed to be mostly in the y direction
@@ -16,8 +14,9 @@ from astroML.utils import check_random_state
 input = np.load('xydata.npz')
 xx = input['xx']
 yy = input['yy']
-
-
+#plt.figure(1)
+#plt.clf()
+#plt.plot...
 
 # suppose we wish to determine whether a 2nd order model (quadratic) 
 # would be superior to a 1st order model (line) for this data set 
@@ -25,20 +24,22 @@ yy = input['yy']
 # perform 1st and 2nd order fits using np.polyfit
 # please use the variable name convention below and set cov=True so you
 # can estimate the errors later on in the tutorial
+
 #pfit1, covp1 = ?? 
+#pfit2, covp2 = ??
 
-
-
-# review Section 4.3.1 of the Ivezic et al. text on the use of 
-# reduced chi^2 to compare models -- notice you must be very careful
-# to adjust the number of "degrees of freedom" for 1st vs. 2nd order fits
-
-# compute the reduced chi^2 and rms for each of the fits# (here you'll have to assume a value for the errors -- you can't estimate 
+# compute the rms, chi^2, and reduced chi^2 for each of the fits
+# (here you'll have to assume a value for the errors -- you can't estimate 
 # them from the rms around one of the fits as you'd get a different answer 
 # for the 1st and 2nd order fits, biasing the comparison of reduced chi^2)
 errs = 2. # try 2 for starters
 
-
+#print("rms1 %0.2f" % ???
+#print("rms2 %0.2f" % ???
+#chisq1 = ???
+#chisq2 = ???
+#redchisq1 = ???
+#redchisq2 = ???
 
 # uncomment line below once you have the variables redchisq1 & redchisq2
 #print "reduced chi^2 for 1st order fit = %0.2f and for 2nd order fit = %0.2f" % (redchisq1,redchisq2)
@@ -48,19 +49,32 @@ errs = 2. # try 2 for starters
 
 # plot the two fits over the data
 
-
+xtoplot = np.linspace(2,16,10)
+#plt.plot(xtoplot,???
+#plt.plot(xtoplot,???
 
 # which fit order is preferred based on this analysis? 
 
-# use stats.chi2.ppf to determine the expected 1 & 2 sigma variation around 1.0
-# for the reduced chi^2 value of data around the correct model for that data;
+# use stats.chi2.ppf to find the expected 1 & 2 sigma variation of the reduced
+# chi^2 value around 1.0 based on the variation of data around the correct 
+# model for that data
 # here is the calculation for 1 sigma for a 1st order model to get you started
 # (notice that ppf returns chi^2, not reduced chi^2)
 #print stats.chi2.ppf(0.68, len(xx)-2) / (len(xx)-2)
 
 
 
-# how confident are you in your choice of fit order? explain
+# how confident are you in your choice of fit order?
+
+
+# Google the "Akaike Information Criterion" (AIC) on the use of chi^2 to
+# compare models -- notice that since the smallest AIC = Chi^2 +2k "wins", the
+# smallest chi-squared may or may not win, depending on how much the number
+# of model parameters k changes. There is a penalty for adding parameters.
+#print("AIC for order 1: %0.2f" % (chisq1 + ???))
+#print("AIC for order 2: %0.2f" % (chisq2 + ???))
+# in our example, which fit order wins according to the AIC?
+
 
 '''
 side note: if we had wanted to assume a mix of error in xx and error in yy,
@@ -70,12 +84,18 @@ http://docs.scipy.org/doc/scipy/reference/odr.html and
 http://blog.rtwilson.com/orthogonal-distance-regression-in-python/
 '''
 
-# now let's consider Bayesian model comparison, following the methodology
-# outlined in Ivezic et al. Section 5.4
-# below is a code block you can uncomment with two Bayesian likelihood grid 
-# calculations for 1st and 2nd order model parameters, assuming flat priors
-# (we've set up the grid of parameter values from -4*err to +4*err around the
-# MLE best fit parameter values from the frequentist analysis)
+# Now let's consider Bayesian model comparison.
+# The basic method is summarized in the short Introduction at the top of
+# https://revbayes.github.io/tutorials/model_selection_bayes_factors/bf_intro.html
+# Essentially, we wish to compute the "odds ratio" or "Bayes Factor"
+# favoring a first-order model (M1) over a second-order model by marginalizing
+# over all possible model parameter values (and multiplying by any prior 
+# belief about their relative likelihood of being correct; here we'll assume
+# equal prior likelihood for 1st and 2nd order models).
+# Below is a code block you can study, then uncomment with two Bayesian
+# likelihood grid calculations for 1st and 2nd order model parameters,
+# assuming flat priors within a grid of parameter values from -4*err to +4*err
+# around the MLE best fit parameter values from the frequentist analysis.
 
 '''
 ndata=len(xx)
@@ -93,6 +113,7 @@ modelgrid = modelgridterm1.reshape(ndata,nalpha,1) + betaposs.reshape(nbeta,1,1)
 residgrid = yy.reshape(ndata,1,1) - modelgrid
 chisqgrid = np.sum(residgrid**2/errs**2,axis=0)        
 lnpostprob1 = (-1./2.)*chisqgrid + np.log(prior_1storder) 
+
 ndata=len(xx)
 np0=100
 np1=100
@@ -116,16 +137,27 @@ lnpostprob2 = (-1./2.)*chisqgrid + np.log(prior_2ndorder)
 '''
 
 # marginalize over all parameters in the two posterior distributions to
-# decide whether the Bayesian odds favors a 1st or 2nd order model
-
+# decide whether the Bayesian odds favors a 1st or 2nd order model --
 # note that the "implicit" prior set by the allowed parameter ranges
-# matters now (see "Occam's Razor" in Ivezic 5.4.2)
-# and so does "dparams" in the integral (i.e. the widths "dx" of the
-# parameter increments in the integral)
+# matters now and so do the "dparams" in the integral (i.e. the widths 
+# "dx" of the parameter increments in the integral)
+#postprob1=np.exp(lnpostprob1)
+#dalpha = range_alpha/nalpha
+#dbeta = range_beta/nbeta
+#integral1 = np.sum(postprob1*dalpha*dbeta)
+#postprob2= ???
+#dp0 = ???
+#dp1 = ???
+#dp2 = ???
+#integral2 = ???
+#odds = integral1 / integral2
 
 
 # uncomment below once you have defined "odds"
-#print "odds favoring a 1st order over a 2nd order model: %0.2f" % odds
+#print "Bayesian odds favoring a 1st order over a 2nd order model: %0.2f" % odds
 
-# consult Ivezic section 5.4 -- does your result agree with your earlier result
-# based on chi^2 analysis? discuss the confidence levels in each analysis
+# consult https://www.statisticshowto.com/bayes-factor-definition/
+# to interpret the odds ratio (Bayes Factor) you found for the two models --
+# does your result agree with your earlier result based on chi^2 analysis? 
+# discuss the confidence levels in each analysis
+
