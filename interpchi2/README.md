@@ -6,7 +6,7 @@ Author: Sheila Kannappan (with prior major contributions from Kathleen Eckert, R
 Last Modified: June 2021<br>
 <br>
 
-To complete this tutorial, download the code [here](https://github.com/capprogram/2021bootcamp//blob/master/interpchi2/interpretingchi2.py) and modify/run it (ideally in the Spyder app for Anaconda Python) with reference to the instructions below.
+To complete this tutorial, download the code [here](https://github.com/capprogram/2021bootcamp//blob/master/interpchi2/interpretingchi2.py) and modify/run it (ideally in the Spyder app for Anaconda Python 3) with reference to the instructions below.
 
 Computing the &chi;<sup>2</sup> value is useful for determining whether a model is consistent with a data set within its errors. Most (astro)physicists define &chi;<sup>2</sup> as &Sigma;<sub>i</sub>(O<sub>i</sub> - E<sub>i</sub>)<sup>2</sup>/&sigma;<sub>i</sub><sup>2</sup> where O<sub>i</sub>, E<sub>i</sub>, and &sigma;<sub>i</sub> are the Observed and Expected values and the errors. In other words, the numerator represents the actual residuals between the data and the model, and the denominator represents the expected residuals assuming Gaussian-distributed errors. (Note however that in online discussions, &chi;<sup>2</sup> is generally defined with an E<sub>i</sub> in the denominator, which represents the special case of Poisson-distributed data.) 
 
