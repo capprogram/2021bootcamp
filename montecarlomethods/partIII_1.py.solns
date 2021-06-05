@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 #### r_at_given_intp_r=sqrt(int_p)
 
 # choose nran random numbers in uniform interval 0-1
-nran = 1000
+nran = 10000
 rngx = npr.default_rng()
 xvals = rngx.uniform(size=nran)
 
