@@ -1,19 +1,19 @@
 """
 Interpreting Chi^2
 Author: Sheila Kannappan
-excerpted/adapted from CAP REU tutorial September 2016
+excerpted/adapted from CAP REU tutorial September 2016; updated June 2021
 """
-from __future__ import division
 import numpy as np
 import matplotlib.pyplot as plt
 import numpy.random as npr
 
 # experiment to illustrate Monte Carlo creation of chi^2 
-# distributions for two values of N
+# distributions for two values of N and model with no free
+# parameters (so df = N-k = N)
 
 i=0
 if i == 0:
-#for i in xrange(2):
+#for i in range(2):
 
   narr=30*(1+9*i) #30 first time, 300 second time
   chisqs=[]
@@ -21,7 +21,7 @@ if i == 0:
              # to see how the random variations change the chi^2
              # start w/ iters=100 then change iters to 1000 and repeat
 
-  for j in xrange(iters):
+  for j in range(iters):
     # create a data set with random errors whose underlying
     # functional form is y=1/x (no free parameters in model)
     xvals = np.zeros(narr)
@@ -51,10 +51,10 @@ if i == 0:
       redchisqdist2 = np.array(chisqs)/narr
       # same thing for 2nd N 
       
-plt.figure(2)
+plt.figure(1)
 plt.clf()
-n1, bins1, patches1 = plt.hist(redchisqdist1,bins=round(0.05*iters),normed=1,histtype='stepfilled')
-#n2, bins2, patches2 = plt.hist(redchisqdist2,bins=round(0.05*iters),normed=1,histtype='step')
+n1, bins1, patches1 = plt.hist(redchisqdist1,bins=round(0.05*iters),density=1,histtype='stepfilled')
+#n2, bins2, patches2 = plt.hist(redchisqdist2,bins=round(0.05*iters),density=1,histtype='step')
 plt.setp(patches1,'facecolor','g','alpha',0.75)
 plt.xlim(0,2.5)
 #plt.setp(patches2,'hatch','///','alpha',0.75,color='blue')
