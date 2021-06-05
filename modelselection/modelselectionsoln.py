@@ -32,10 +32,6 @@ plt.plot(xx,yy,'b.')
 pfit1, covp1 = np.polyfit(xx, yy, 1, cov='True')
 pfit2, covp2 = np.polyfit(xx, yy, 2, cov='True')
 
-# review Section 4.3.1 of the Ivezic et al. text on the use of 
-# reduced chi^2 to compare models -- notice you must be very careful
-# to adjust the number of "degrees of freedom" for 1st vs. 2nd order fits
-
 # compute the reduced chi^2 and rms for each of the fits
 # (here you'll have to assume a value for the errors -- you can't estimate 
 # them from the rms around one of the fits as you'd get a different answer 
@@ -59,11 +55,12 @@ xtoplot = np.linspace(2,16,10)
 plt.plot(xtoplot,np.polyval(pfit1,xtoplot),'b')
 plt.plot(xtoplot,np.polyval(pfit2,xtoplot),'g')
 
-# which fit order is preferred based on this analysis?
+# which fit order is preferred based on reduced chi-squared alone?
 # the 2nd order fit is favored slightly
 
-# use stats.chi2.ppf to determine the expected 1 & 2 sigma variation around 1.0
-# for the reduced chi^2 value of data around the correct model for that data;
+# use stats.chi2.ppf to find the expected 1 & 2 sigma variation of the reduced
+# chi^2 value around 1.0 based on the variation of data around the correct 
+# model for that data;
 # here is the calculation for 1 sigma for a 1st order model to get you started
 # (notice that ppf returns chi^2, not reduced chi^2)
 print(stats.chi2.ppf(0.68, len(xx)-2) / (len(xx)-2))
@@ -74,6 +71,14 @@ print(stats.chi2.ppf(0.95, len(xx)-3) / (len(xx)-3))
 # how confident are you in your choice of fit order?
 # not even very confident, the worse reduced chi^2 could still come up
 # randomly pretty often as it's between 1 and 2 sigma
+
+# Google the "Akaike Information Criterion" (AIC) on the use of chi^2 to
+# compare models -- notice that since the smallest AIC = Chi^2 +2k "wins", the smallest
+# smallest *reduced* chi-squared may or may not win, depending on how much 
+# number of model parameters k changes compared to the number of degrees
+# of freedom N-k.
+
+# in our example, which fit order wins according to the AIC?
 
 '''
 side note: if we had wanted to assume a mix of error in xx and error in yy,
