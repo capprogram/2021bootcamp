@@ -4,7 +4,6 @@ This tutorial should be completed with reference to [these companion slides](htt
 
 Author: Sheila Kannappan (with prior major contributions from Kathleen Eckert, Rohan Isaac, and Amy Oldenberg)<br>
 Last Modified: June 2021<br>
-<br>
 
 To complete this tutorial, download the code [here](https://github.com/capprogram/2021bootcamp//blob/master/interpchi2/interpretingchi2.py) and modify/run it (ideally in the Spyder app for Anaconda Python 3) with reference to the instructions below.
 
