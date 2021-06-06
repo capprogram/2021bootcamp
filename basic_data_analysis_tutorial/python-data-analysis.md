@@ -27,7 +27,7 @@ Open up the anaconda navigator app which will have a nice user interface. Then, 
 
 The first thing to note is how the Spyder app is organized. The application includes multiple separate windows that each have different purposes (see image above). You can change which windows you prefer to have open from the `View -> Panes` and `View -> Toolbars` option. The default configuration has the Editor, Plotter, and Console/History log/IPython console windows open as shown above. I personally find that the variable explorer is better than the plots, so I would consider switching to that. 
 
-## Make sure your IPython console says at least Python 3.0 or greater! If not, then you should re-download Anaconda, ensuring that you are getting the version that uses Python 3.
+### Make sure your IPython console says at least Python 3.0 or greater! If not, then you should re-download Anaconda, ensuring that you are getting the version that uses Python 3.
 
 You may want to change the default way graphs are plotted from a static inline image to an interactive window that you can resize/pan/zoom etc. To set this under `Tools -> Preferences`, select `IPython console` from the sidebar, go to the `Graphics` tab, and set the backend as `Automatic`.
 
