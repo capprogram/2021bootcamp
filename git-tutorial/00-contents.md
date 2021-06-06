@@ -1,5 +1,7 @@
 # Git and GitHub tutorial
 
+Last updated for remote use by D. Carr - May 2021
+
 ## 1. Go [here](https://github.com/capprogram/2021bootcamp/blob/master/git-prep.md) if you need a GitHub account or must install Git.
 
 ## 2. Configure Git.

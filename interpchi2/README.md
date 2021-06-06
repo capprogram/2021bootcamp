@@ -1,6 +1,6 @@
 # Interpreting &chi;<sup>2</sup>
 
-This tutorial should be completed with reference to [these companion slides](https://github.com/capprogram/2021bootcamp/blob/master/MaximumLikelihoodBasics.pdf) and is an optional prequel to the tutorial on [ _parameter estimation by maximum likelihood model fitting_](https://github.com/capprogram/2021bootcamp/blob/master/fitting-basic/README.md) discussed in the same slides.<br>
+This tutorial should be completed with reference to [these companion slides](https://github.com/capprogram/2021bootcamp/blob/master/BasicStatsIII.pdf) and is an optional prequel to the tutorial on [ _parameter estimation by maximum likelihood model fitting_](https://github.com/capprogram/2021bootcamp/blob/master/fitting-basic/README.md) discussed in the same slides.<br>
 
 Author: Sheila Kannappan (with prior major contributions from Kathleen Eckert, Rohan Isaac, and Amy Oldenberg)<br>
 Last Modified: June 2021<br>

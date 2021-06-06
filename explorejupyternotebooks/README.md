@@ -1,5 +1,6 @@
 ## Exploring Jupyter Notebooks
 
+Updated June 2021 by D. Carr
 
 Below are additional instructions to open the `ExploreECO.ipynb` tutorial in JupyterLab:
 
