@@ -1,7 +1,7 @@
 """
 Code for Tutorial on Bayesian Parameter Estimation
 Modified by Kathleen Eckert from an activity written by Sheila Kannappan
-June 2015
+June 2015; updated to Python 3 June 2021
 """
 
 import numpy as np
@@ -99,8 +99,8 @@ betaposs=np.arange(gridsize2) / 10.  # and here?
 #lnpostprob_flat=np.zeros((gridsize1,gridsize2)) # setup an array to contain those values for the flat prior
 #lnpostprob_comp=np.zeros((gridsize1,gridsize2)) # setup an array to contain those values for the compensating prior
 
-#for i in xrange(gridsize1):  # loop over all possible values of alpha
-#    for j in xrange(gridsize2): # loop over all possible values of beta
+#for i in range(gridsize1):  # loop over all possible values of alpha
+#    for j in range(gridsize2): # loop over all possible values of beta
 #        modelvals = alphaposs[i]*xvals+betaposs[j] # compute yfit for given model
 #        resids = (yvals - modelvals) # compute residuals for given grid model
 #        chisq = np.sum(resids**2 / errs**2) # compute chisq 
