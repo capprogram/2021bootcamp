@@ -1,11 +1,13 @@
+Last modified for remote use by D. Carr - May 2021
+
 # 1. Sign up for GitHub
 
 1. Visit https://github.com/ and pick a username to set up an account. You’ll probably use GitHub long past this boot camp, so bear that in mind when deciding what email address to give.
 
 2. Give us your username so we can invite you to join the `capprogram` organization.
 
-3. Visit https://github.com/capprogram to accept the invitation to join the team
-`2021bootcamp`.
+3. Visit https://github.com/capprogram to accept the invitation to join the team for the 
+`2021bootcamp` repository.
 
 # 2. Install Git
 
