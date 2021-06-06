@@ -1,5 +1,7 @@
 # vi text editor quick start
 
+Last edited by D. Carr - May 2021
+
 Launch the vi text editor by typing `vi filename.txt` into Git Bash. This will open `filename.txt` if it already exists, or create a blank text file with that name.
 
 `vi` launches in the command mode, where you cannot enter text, but can enter vi commands. 
