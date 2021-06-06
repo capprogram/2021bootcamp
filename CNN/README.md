@@ -1,3 +1,5 @@
+Created June 2021 by D. Carr
+
 We will be using [John Wu's github demo of convolutional neural networks](https://github.com/jwuphysics/convnet-demo) for this tutorial. CNNs are powerful machine learning tools that are often used to classify objects given images. First, skim over [this long document](https://cs231n.github.io/convolutional-networks/#overview) from a Stanford CS class that explains what CNN are and how they work. I would suggest having this document handy while going over the actual tutorial. John Wu wrote a paper based off what is being done in his CNN demo, so please feel free to read over the abstract of the paper listed on his github. Check out the wikipedia page for Metallicity to better understand what is being determined in this demo. 
 
 To run this tutorial:
