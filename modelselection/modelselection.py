@@ -42,7 +42,7 @@ errs = 2. # try 2 for starters
 #redchisq2 = ???
 
 # uncomment line below once you have the variables redchisq1 & redchisq2
-#print "reduced chi^2 for 1st order fit = %0.2f and for 2nd order fit = %0.2f" % (redchisq1,redchisq2)
+#print("reduced chi^2 for 1st order fit = %0.2f and for 2nd order fit = %0.2f" % (redchisq1,redchisq2))
 
 # what is wrong with the reduced chi^2 values? 
 # adjust your error bar assumption to fix the problem and re-run
@@ -60,7 +60,7 @@ xtoplot = np.linspace(2,16,10)
 # model for that data
 # here is the calculation for 1 sigma for a 1st order model to get you started
 # (notice that ppf returns chi^2, not reduced chi^2)
-#print stats.chi2.ppf(0.68, len(xx)-2) / (len(xx)-2)
+#print(stats.chi2.ppf(0.68, len(xx)-2) / (len(xx)-2))
 
 
 
@@ -154,7 +154,7 @@ lnpostprob2 = (-1./2.)*chisqgrid + np.log(prior_2ndorder)
 
 
 # uncomment below once you have defined "odds"
-#print "Bayesian odds favoring a 1st order over a 2nd order model: %0.2f" % odds
+#print("Bayesian odds favoring a 1st order over a 2nd order model: %0.2f" % odds)
 
 # consult https://www.statisticshowto.com/bayes-factor-definition/
 # to interpret the odds ratio (Bayes Factor) you found for the two models --
