@@ -1,5 +1,7 @@
 ## Programming Best Practices
 
+Updated to JupyterLab format June 2021
+
 To complete this tutorial:
 
  * go to https://jupyter.org/try
