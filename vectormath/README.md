@@ -1,5 +1,7 @@
 Created by D. Carr - June 2021
 
+# Vector Math and Broadcasting
+
 Please read [this link](https://www.pythonlikeyoumeanit.com/Module3_IntroducingNumpy/Broadcasting.html) up until the end of the section titled "The Final Answer, At Last!". This page will go over how mathematical operations on arrays of different shapes will turn out. It is fairly thorough with examples so I would recommend following along with the code in python/spyder yourself to test out some of the broadcasting. You do not have to do the blue rectangles labeled "Reading Comprehension" but I would consider at least reading over them and thinking critically about them. Below are some additional tips that may be nice to know as you follow along with this document:
 
 In another tab on this same website, they formally define "Vectorized Operations". Read over this definition:
