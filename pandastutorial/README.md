@@ -1,3 +1,5 @@
+Updated June 2021 by D. Carr
+
 Check out the [10 Minutes to pandas guide](https://pandas.pydata.org/pandas-docs/version/0.15.2/10min.html) to see if you'd like to learn more about this powerful data manipulation package. If you've learned about jupyter notebooks, you can play with some useful pandas commands in this pandas tutorial notebook.
 
 To complete this tutorial:
