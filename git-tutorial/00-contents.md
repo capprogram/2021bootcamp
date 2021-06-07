@@ -17,7 +17,7 @@ Examples:
 
 Note `user.name` is not your GitHub username but rather your name.
 
-(Our git tutorial assumes you will use nano as your editor. If you accidentally have another text editor, such as vi, set as your default and would like to switch to use nano, you can use the command `git config --global core.editor "nano"`. Alternatively, to use emacs or some other plain text editor as your default, just type the same command except replace the name at the end. e.g. `git config --global core.editor "emacs"` 
+(Our git tutorial assumes you will use nano as your editor. If you accidentally have another text editor, such as vi, set as your default and would like to switch to use nano, you can use the command `git config --global core.editor "nano"`.) 
 
 You can check what you’ve done with
 
