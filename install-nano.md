@@ -2,7 +2,7 @@
 
 Created May 2021 by D. Carr
 
-We encourage you to choose nano as the default text editor for Git. Nano is fairly simple to use, with instructions to remind you how it works at the bottom of the window. However, installing nano can be a little tricky. Here are instructions if you are using a Windows machine. Mac users, please use Google to figure out the equivalent for your machine!
+We encourage you to choose nano as the default text editor for Git. Nano is fairly simple to use, with instructions to remind you how it works at the bottom of the window. However, installing nano can be a little tricky. Here are instructions if you are using a Windows machine. Mac users should already have nano installed on their computer! You can test this by opening a `terminal`, then typing `nano test.txt`. If a file opens up with commands such as "Write out" at the bottom, then it worked! If you do not have nano installed for some reason, please use Google to figure out how to get it! For windows users, the installation instructions are:
 
     1. Go to this website: https://www.trishtech.com/2020/11/how-to-install-nano-editor-in-windows-10/
     2. Click on the link in step 1 and find the latest version of nano. Download it and give it permission to be installed/edit device if it asks. 
