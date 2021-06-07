@@ -6,8 +6,8 @@ Last modified for remote use by D. Carr - May 2021
 
 2. Give us your username so we can invite you to join the `capprogram` organization.
 
-3. Visit https://github.com/capprogram to accept the invitation to join the team for the 
-`2021bootcamp` repository.
+3. Visit https://github.com/capprogram to accept the invitation to join the 
+`capprogram` organization.
 
 # 2. Install Git
 
