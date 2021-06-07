@@ -1,6 +1,6 @@
 # Model Selection
 
-This tutorial should be completed only after the tutorial on [ _parameter estimation by Bayesian fitting_](https://github.com/capprogram/2021bootcamp/blob/master/fitting-bayes/README.md).<br>
+This tutorial should be completed only after the tutorial on [ _parameter estimation by Bayesian fitting_](https://github.com/capprogram/2021bootcamp/blob/master/fitting-bayesian/README.md).<br>
 
 Author: Sheila Kannappan<br>
 Last Modified: June 2021<br>
