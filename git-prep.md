@@ -16,7 +16,7 @@ Install git for your laptop from one of these links:
 1. [Install for MacOS](https://git-scm.com/download/mac)
 2. [Install for Win](https://git-for-windows.github.io) 
  
-For Windows Git installation, all the default installation options are fine except you may prefer to decline using vim as the default text editor and choose nano instead (you will see instructions to change this later if you would like to). Make sure to also get the credential manager core as well. For Mac, git should just install directly into the terminal. 
+For Windows Git installation, all the default installation options are fine except you may prefer to decline using vim as the default text editor and choose nano instead (you will see instructions to change this later if you would like to). Make sure to also get the credential manager core as well. For Mac, git will install without any installation option decisions and will be usable from the terminal.
 
 For now, just install Git (and possibly restart your computer if it says to) and we can play with it later. Return back to the main wiki and continue with the tutorials
 
