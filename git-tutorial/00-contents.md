@@ -6,7 +6,7 @@ Last updated for remote use by D. Carr - May 2021
 
 ## 2. Configure Git.
 
-On your machine, run these `git config` commands below (in any directory) to set your name, email, and preferred options.
+Windows users should start git by starting the "Git Bash" program, while Mac users should just be able to open up a normal terminal. On your machine, run these `git config` commands below (in any directory) to set your name, email, and preferred options.
 
 Examples:
 
