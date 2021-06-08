@@ -10,14 +10,18 @@ Here is a one page [Quick Reference](http://user.physics.unc.edu/~sheila/PythonQ
 
 ## Part I: Installation of Anaconda
 
-You should be able to install anaconda simply by going to [this link](https://docs.anaconda.com/anaconda/install/windows/) and downloading the appropriate version for your computer. After installing anaconda, start the anaconda navigator program, open up the anaconda terminal (may be called CMD.exe Prompt), and type these in one line at a time and press enter to install each one:
+You should be able to install anaconda simply by going to [this link](https://docs.anaconda.com/anaconda/install/windows/) and downloading the appropriate version for your computer. For Windows users, after installing anaconda, start the anaconda navigator program, open up the anaconda terminal (may be called CMD.exe Prompt), and type these in one line at a time and press enter to install each one:
 
     conda install astropy
     conda install git
     pip install git+https://github.com/astroML/astroML
     pip install pymc3
-    
+ 
 It may ask you if you want to install packages saying [y]/n. Just press enter or type y and press enter.
+
+For MAC users, you should be able to install the packages (astropy, git, astroml, pymc3) by opening anaconda navigator, pressing on the environments tab, changing the drop-down menu that says "installed" to "All", and then searching for each of the four packages. For each one, press on the box near its name and press "Apply" at the bottom-right to install it. 
+
+
 
 ## Part II: Getting Started and Recording Your Work
 
