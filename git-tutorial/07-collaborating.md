@@ -41,15 +41,15 @@ Now both the Collaborator and the Owner have a local copy of the master branch o
 The Collaborator should make a branch of the Collaborator's local master and switch to it
 
 ```
-git branch wolfman-pluto
-git checkout wolfman-pluto
+$ cd ~/Desktop/vlad-planets
+$ git branch wolfman-pluto
+$ git checkout wolfman-pluto
 ```
 
 The Collaborator can now make a change in her clone of the Owner's repository,
 exactly the same way as we've been doing before:
 
 ```
-$ cd ~/Desktop/vlad-planets
 $ nano pluto.txt
 $ cat pluto.txt
 Co-signers: Wolfman, Dracula, Frankenstein, and Mummy
