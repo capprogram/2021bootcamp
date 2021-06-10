@@ -14,5 +14,6 @@ To complete this tutorial:
   `wget https://raw.githubusercontent.com/capprogram/2021bootcamp/master/bestpractices/templatecodeprotected.py?token=AHJ5VUFCDDTBPFDX47ETTQ3AYJUQ6 -O /home/jovyan/demo/templatecodeprotected.py`
  * if necessary, click the refresh page (curled arrow) at the top of the webpage
  * launch the jupyter notebook by double clicking on it
- * you can run or re-run individual cells in the notebook by clicking on them and typing Ctrl-Enter
- * you can view/edit individual python codes outside the notebook by double clicking on them in the list of files on the left side of the jupyter lab window, then viewing/editing them in the windows that pop up
+ * you can run or re-run individual cells in the bestpractices.ipynb jupyter notebook by clicking on them and typing Ctrl-Enter
+ * you can view/edit individual python codes outside the jupyter notebook by double clicking on them in the list of files on the left side of the jupyter lab window, then viewing/editing them in the windows that pop up
+ * you will edit the code you're fixing outside the notebook, then re-run it by re-executing the cell that calls the code inside the notebook
