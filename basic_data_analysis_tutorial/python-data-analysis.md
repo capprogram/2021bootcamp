@@ -156,7 +156,7 @@ First, download [testdata.in](http://user.physics.unc.edu/~sheila/testdata.in) i
 data=np.loadtxt(r"XXXXtestdata.in")
 ```
 
-where `XXXX` should be replaced with the path to your file (displayed at the top of the Editor Window if you put your program and data files in the same place as instructed). An example might be `C:\My Documents\Python Scripts\`. The extra `r` in front of the path and filename is necessary to force python to interpret the information literally. Note that loadtxt *assumes* your data is in numeric form, so if there's a header with column names, you should remove that before reading.
+where `XXXX` should be replaced with the path to your file (displayed at the top of the Editor Window if you put your program and data files in the same place as instructed). An example might be `C:\My Documents\Python Scripts\`. The extra `r` in front of the path and filename is necessary to force python to interpret the information literally. To directly figure out the path of the file you just downloaded, you can open the downloaded file in Spyder by going to File -> Open, and then finding the file using a file explorer. Once the file is open, the path of the file displayed above the Editor Window is what you want to copy in exactly between the quotation marks of the `np.loadtxt` command above. Note that loadtxt *assumes* your data is in numeric form, so if there's a header with column names, you should remove that before reading.
 Now, you have all your data in one array. If you want to work with different columns, it is helpful to name them and extract them from the array. For example:
 
 ```python
