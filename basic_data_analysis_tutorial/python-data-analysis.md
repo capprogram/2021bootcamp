@@ -10,7 +10,7 @@ Here is a one page [Quick Reference](http://user.physics.unc.edu/~sheila/PythonQ
 
 ## Part I: Installation of Anaconda
 
-You should be able to install anaconda simply by going to [this link](https://docs.anaconda.com/anaconda/install/windows/) and downloading the appropriate version for your computer. For Windows users, after installing anaconda, start the anaconda navigator program, open up the anaconda terminal (may be called CMD.exe Prompt), and type these in one line at a time and press enter to install each one:
+You should be able to install anaconda on your personal computer by simply by going to [this link](https://docs.anaconda.com/anaconda/install/windows/) and downloading the appropriate version for your computer. For Windows users, after installing anaconda, start the anaconda navigator program, open up the anaconda terminal (may be called CMD.exe Prompt), and type these in one line at a time and press enter to install each one:
 
     conda install astropy
     conda install git
